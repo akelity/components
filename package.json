@@ -1,0 +1,16 @@
+{
+  "name": "akelity-plain-components",
+  "version": "0.0.1",
+  "description": "A simple components library for js (only for study/test)",
+  "main": "index.js",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akelity/components"
+  },
+  "author": "Michel Murabito",
+  "license": "MIT",
+  "homepage": "https://github.com/akelity/components#readme"
+}

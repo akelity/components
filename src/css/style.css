@@ -1,0 +1,69 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: darkorange;
+    font-family: monospace;
+    font-size: 1.8vw;
+    margin:0px;
+    padding:0px;
+    background-color:darkslategrey;
+}
+
+#menu {
+    width: 100vw;
+    height: 100%;
+    padding-right: 2vw;
+    margin:0px;
+}
+
+#menu .nav {
+    width:100%;
+    text-align:center;
+}
+
+#menu .nav .list {
+
+}
+
+#menu .nav .list ul {
+    list-style: none inside;
+    padding: 0;
+    margin: 0;
+}
+
+#menu .nav .item {
+    padding-top:15px;
+    cursor: pointer;
+    text-align:center;
+    font-size: 24px;
+    width: 25vw;
+    height:5vw;
+    vertical-align: middle;
+    float: left;
+    background-color:black;
+}
+
+#menu nav .list .item:hover {
+    color: red;
+    background-color:darkslategrey;
+}
+
+#content {
+    width: 70vw;
+    height: 100%;
+    clear: left;
+}
+
+#content .main {
+    font-size: 3em;
+    width: 100%;
+    height: 100%;
+    padding: 1px 1px 1px 1px;
+}
+
+#akelity-main {
+    width: 90vw;
+    clear: both;
+    padding-top: 10px;
+}
+
