@@ -8,7 +8,10 @@ const templates = ((() => {
   function getResource(path, onSuccess, onError) {
     const request = new XMLHttpRequest();
     const url = getAbsolutePath() + path;
-
+    
+    // defaulting to console.error
+    if (!onError) onError = (err) => {console.error(err)};
+    
     request.open('GET', url, true);
 
     request.onload = function () {
